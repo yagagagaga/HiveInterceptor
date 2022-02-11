@@ -1,4 +1,48 @@
-target/
+# ignore compiled byte code
+*target/
+classes
+out
+.env
+
+# ignore output files from testing
+output*
+*log
+*logs
+tmp*
+
+# ignore standard Eclipse files
+.project
+.classpath
+.settings
+.checkstyle
+
+# ignore standard IntelliJ files
+.idea/
+*.iml
+*.ipr
+*.iws
+*/dependency-reduced-pom.xml
+
+# ignore standard Vim and Emacs temp files
+*.swp
+*~
+
+# ignore standard Mac OS X files/dirs
+.DS_Store
+/differentbin/
+
+# ignore spark-warehouse files
+spark-warehouse
+metastore_db
+work
+
+# ignore other
+.svn
+.MF
+/.lein-*
+
+data/
+flume_*/
 pom.xml.tag
 pom.xml.releaseBackup
 pom.xml.versionsBackup
